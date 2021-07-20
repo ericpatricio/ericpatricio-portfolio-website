@@ -1,0 +1,48 @@
+.footer {
+  font-size: 1rem;    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background: $primary-color;
+  color: $light-color;
+  width: 100%;  
+  padding: 1rem;
+  
+  .social-icons {  
+    margin: 0;
+  }
+
+}
+
+/* ******************************** */
+/* Top link */
+.up-link {
+  display: none;
+
+  @include breakpoint-up(medium) {
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background-color: $secondary-color;
+    width: 2.5rem;
+    height: 2.5rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: $light-color;  
+    visibility: hidden;
+    z-index: -100;
+    animation: bounce 2s ease-in-out infinite;
+    overflow: hidden;
+    box-shadow: $shadow;
+  }
+}
+
+.up-link.show {
+  visibility: visible;
+  z-index: 100;
+}
