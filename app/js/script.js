@@ -2,17 +2,20 @@
 const navbar = document.querySelector('#navbar');
 const navMenu = document.querySelector('.navbar__menu');
 const navBurger = document.querySelector('.navbar__burger');
+const body = document.querySelector('body');
 
 navBurger.addEventListener('click', () => {
   if(navbar.classList.contains('open')) {
     navbar.classList.remove('open');
-    navMenu.classList.remove('open');    
+    navMenu.classList.remove('open');
+    body.classList.remove('not-scroll');    
   } else {
     navbar.classList.add('open');
     navMenu.classList.add('open');
+    body.classList.add('not-scroll');    
+
   }
 })
-
 
 // ********** Fixed navbar ************
 window.addEventListener('scroll', () => {
