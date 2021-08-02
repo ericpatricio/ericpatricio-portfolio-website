@@ -25,16 +25,12 @@
     }
 
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
 
       @include breakpoint-up(medium) {
         font-size: 2rem;
-      }
-
-      span {
-        display: block;
-        margin-bottom: 2rem;
-      }
+      }      
     }    
   }       
 }
