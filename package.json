@@ -1,0 +1,24 @@
+{
+  "name": "eric-patricio-portfolio-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericpatricio/ericpatricio-portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericpatricio/ericpatricio-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/ericpatricio/ericpatricio-portfolio-website#readme",
+  "description": ""
+}
