@@ -18,7 +18,9 @@
     "sass": "^1.37.5"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-webp": "^4.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -34,5 +36,5 @@
     "url": "https://github.com/ericpatricio/ericpatricio-portfolio-website/issues"
   },
   "homepage": "https://github.com/ericpatricio/ericpatricio-portfolio-website#readme",
-  "description": ""
+  "description": "- Here you can see all my progress as self-taught front end developer, my personal projects, and tech stack. And everything to come, to get to my end goal as strong full stack developer."
 }
