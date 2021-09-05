@@ -12,8 +12,7 @@ navBurger.addEventListener('click', () => {
   } else {
     navbar.classList.add('open');
     navMenu.classList.add('open');
-    body.classList.add('not-scroll');    
-
+    body.classList.add('not-scroll');   
   }
 })
 
@@ -39,14 +38,12 @@ window.addEventListener('scroll', () => {
 // ***********Smooth nav scroll ****************
 const scrollLinks = document.querySelectorAll('.scroll-link');
 
-scrollLinks.forEach(link => {
-  
+scrollLinks.forEach(link => {  
   link.addEventListener('click', (e) => {
     const id = e.currentTarget.getAttribute('href').slice(1);
     // console.log(id);
     const element = document.getElementById(id);
     // console.log(element);
-
     const navHeight = navbar.getBoundingClientRect().height;    
     const linksHeight = navMenu.getBoundingClientRect().height;
     const fixedNav = navbar.classList.contains('fixed-nav');
@@ -65,20 +62,16 @@ scrollLinks.forEach(link => {
       left: 0,
       top: position,
       behavior: 'smooth'
-    });
-    
+    });    
     navbar.classList.remove('open');
-    navMenu.classList.remove('open'); 
-    
+    navMenu.classList.remove('open');     
   })
 })
-
 
 // ***************Project section*******************
 let sortBtn = document.querySelector('.projects__menu').children;
 let sortItem = document.querySelector('.project-item').children;
 // console.log(sortBtn);
-
 
 for (let i = 0; i < sortBtn.length; i++) {
   sortBtn[i].addEventListener('click', function() {
@@ -101,8 +94,6 @@ for (let i = 0; i < sortBtn.length; i++) {
     }
   })
 }
-
-
 // ***************************************
 // Set date
 const date = document.querySelector('#date');
