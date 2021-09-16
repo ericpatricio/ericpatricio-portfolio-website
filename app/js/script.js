@@ -8,11 +8,11 @@ navBurger.addEventListener('click', () => {
   if(navbar.classList.contains('open')) {
     navbar.classList.remove('open');
     navMenu.classList.remove('open');
-    body.classList.remove('not-scroll');    
+    // body.classList.remove('not-scroll');    
   } else {
     navbar.classList.add('open');
     navMenu.classList.add('open');
-    body.classList.add('not-scroll');   
+    // body.classList.add('not-scroll');   
   }
 })
 
